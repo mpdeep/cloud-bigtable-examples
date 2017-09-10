@@ -28,7 +28,7 @@ public class WordCountDriver {
     ProgramDriver programDriver = new ProgramDriver();
     int exitCode = -1;
     try {
-      programDriver.addClass("wordcount-hbase", WordCountHBase.class,
+      programDriver.addClass("wordcount-hbase", WordCount.class,
           "A map/reduce program that counts the words in the input files.");
       programDriver.addClass("export-table", Export.class,
           "A map/reduce program that exports a table to a file.");
