@@ -112,7 +112,7 @@
     <dependency>
       <groupId>com.google.cloud.bigtable</groupId>
       <artifactId>bigtable-hbase-mapreduce</artifactId>
-      <version>${bigtable.version}</version>
+      <version>1.0.0-pre2</version>
     </dependency>
   </dependencies>
 
